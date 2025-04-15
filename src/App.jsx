@@ -19,6 +19,8 @@ export default function App() {
 
       <p>trying updates - Nour Elkashef</p>
 
+      <p>By Me - Taghreed</p>
+
     </div>
   )
 }
