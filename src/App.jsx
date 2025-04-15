@@ -21,6 +21,8 @@ export default function App() {
 
       <p>By Me - Taghreed</p>
 
+      <p>New by Taghreed</p>
+
     </div>
   )
 }
