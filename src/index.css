@@ -1,13 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
+@import "tailwindcss";
+*{
     box-sizing: border-box;
-}
-
-body {
-    background-color: #113;
-    color: #eef;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-    padding: 20px;
+    transition: all 0.3s;
 }
