@@ -2,7 +2,7 @@ import Header from './Header'
 import Button, { LinkBtn, GroupBtn } from './Buttons'
 
 
-import { GroupBtn as RbsGbtn } from './React-Bootstap/Button'
+// import { GroupBtn as RbsGbtn } from './React-Bootstap/Button'
 import Alert from './Alert'
 
 export default function App() {
@@ -17,7 +17,7 @@ export default function App() {
         <p>Nour Elkashef Edit - Saved Successfully!!!. </p>
       </Alert>
 
-      <p>trying updates - Nour Elkashef</p>
+      <p className="text-red-600 text-3xl font-bold underline">trying updates - Nour Elkashef</p>
 
       <p>By Me - Taghreed</p>
 

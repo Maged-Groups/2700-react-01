@@ -1,6 +1,6 @@
 import { Fragment } from "react"
 
-export default function (props) {
+export default function Alert(props) {
 
     console.log(props)
     return (
