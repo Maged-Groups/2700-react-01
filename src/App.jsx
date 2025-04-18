@@ -1,7 +1,10 @@
 import Home from './layout/Home'
 import About from './layout/About'
 import Features from './layout/features'
+import Testimonials from './layout/Testimonials'
 import ServicesDetails from './layout/services-details'
+import Services from './layout/Services'
+import Pricing from './layout/Pricing'
 import Footer from './layout/footer'
 export default function App() {
 
@@ -10,8 +13,12 @@ export default function App() {
       <Home/>
       <About/>
       <Features/>
-      {/* <ServicesDetails/> */}
+      <Testimonials/>
+      <Services/>
+      <Pricing/>
       <Footer/>
+      {/* <ServicesDetails/> */}
+      
     </div>
   )
 }

@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 export default function Home() {
     
         AOS.init({
-            duration: 1500,
+            duration: 3000,
         });
     const openVideo = ()=>{
         document.querySelector('#homeVideo').classList.remove('hidden')
@@ -39,7 +39,7 @@ export default function Home() {
                     <p>Contact</p>
                 </div>
             </div>
-            <nav className="flex sticky top-10 justify-between items-center mb-10 shadow-lg px-5 rounded-2xl h-16 bg-white z-50">
+            <nav className="flex fixed w-10/12 opacity-95 top-10 justify-between items-center mb-10 shadow-lg px-5 rounded-2xl h-16 bg-white z-50">
                 <p className="text-lg md:w-2/12">iLanding</p>
                 <div className="md:flex justify-evenly md:w-8/12 hidden ">
                     <p>Home</p>
@@ -54,7 +54,7 @@ export default function Home() {
                     <button className=" md:hidden" onClick={openHamburgerMenu}><FaHamburger/></button>
                 </div>
             </nav>
-            <div data-aos="fade-up" className="md:flex">
+            <div data-aos="fade-up" className="md:flex mt-24">
                 <div className="flex flex-col items-start justify-start gap-8">
                     <div className="bg-[#e1efff] font-[Helvetica] px-3 text-[#0d83fd] w-xs flex justify-start items-center rounded-2xl gap-2 h-12"><IoSettingsOutline/> Working for your success</div>
                     <div>

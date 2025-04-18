@@ -1,7 +1,7 @@
 import React from 'react'
-import 'aos/dist/aos.css';
 import { FaCheckCircle ,FaPhoneAlt} from "react-icons/fa";
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function About() {
     return (
@@ -19,14 +19,14 @@ export default function About() {
                     <div className='lg:w-6/12 w-full flex justify-start font-[Helvetica] items-center gap-3'><FaCheckCircle className='text-[#0d83fd]'/>Inventore ipsum voluptatem</div>
                 </div>
                 <div className='lg:flex grid sm:justify-start sm:items-center'>
-                    <div className=' flex gap-3 justify-start items-center'>
+                    <div className=' flex gap-3 w-full lg:w-8/12 justify-start items-center'>
                         <img src="../../public/avatar-1.jpg" className='rounded-full w-3/12' alt="avatar" />
                         <div>
                             <p className='text-[#2D465E] w-full text-lg font-[Helvetica]'>Mario Smith</p>
                             <p className='text-[#0d83fd] w-full text-xl font-[Helvetica]'>CEO & Founder</p>
                         </div>
                     </div>
-                    <div className='flex gap-3 justify-start items-center'>
+                    <div className='flex gap-3 w-full lg:w-4/12 justify-start items-center'>
                         <FaPhoneAlt className='text-[#0d83fd] text-2xl'/>
                         <div>
                             <p className='text-gray-600 font-[Helvetica]'>Call us anytime</p>

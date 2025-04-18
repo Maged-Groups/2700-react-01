@@ -5,6 +5,8 @@ import { IoClose } from "react-icons/io5";
 import { FaRegCircleRight , FaFilePdf } from "react-icons/fa6";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
 import { FaRegCheckCircle } from "react-icons/fa";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Footer from '../layout/footer'
 export default function ServicesDetails() {
     const openHamburgerMenu = () =>{
