@@ -81,17 +81,17 @@ export default function Pricing() {
                     <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae.</p>
                     <p className='text-[#2D465E] font-[Helvetica] text-xl'>Featured Included:</p>
                     <div className='grid gap-3'>
-                        <p className='flex justify-start items-center gap-2'><CiCircleCheck/>Temporibus autem quibusdam</p>
-                        <p className='flex justify-start items-center gap-2'><CiCircleCheck/>Saepe eveniet ut et voluptates</p>
-                        <p className='flex justify-start items-center gap-2'><CiCircleCheck/>Nam libero tempore soluta</p>
-                        <p className='flex justify-start items-center gap-2'><CiCircleCheck/>Cumque nihil impedit quo</p>
-                        <p className='flex justify-start items-center gap-2'><CiCircleCheck/>Maxime placeat facere possimus</p>
+                        <p className='flex justify-start text-lg items-center text-[#0d83fd] gap-2'><CiCircleCheck/>Temporibus autem quibusdam</p>
+                        <p className='flex justify-start text-lg items-center text-[#0d83fd] gap-2'><CiCircleCheck/>Saepe eveniet ut et voluptates</p>
+                        <p className='flex justify-start text-lg items-center text-[#0d83fd] gap-2'><CiCircleCheck/>Nam libero tempore soluta</p>
+                        <p className='flex justify-start text-lg items-center text-[#0d83fd] gap-2'><CiCircleCheck/>Cumque nihil impedit quo</p>
+                        <p className='flex justify-start text-lg items-center text-[#0d83fd] gap-2'><CiCircleCheck/>Maxime placeat facere possimus</p>
                     </div>
                     <button className='rounded-4xl w-full h-14 bg-[#0D83FD] hover:bg-blue-400 text-white flex justify-center items-center gap-2'>Buy Now <MdArrowRightAlt/></button>
                 </div>
             </div>
             <div className='lg:flex lg:items-start grid mt-10 lg:px-24 p-5 gap-5'>
-                <div className='grid lg:w-5/12 w-full'>
+                <div className='grid gap-5 lg:w-5/12 w-full'>
                     <p className='text-[#2D465E] font-[Helvetica] lg:text-5xl text-3xl'>
                         Have a question? Check out the FAQ
                     </p>
@@ -147,7 +147,7 @@ export default function Pricing() {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col justify-center items-center p-20 gap-5 mt-14 mb-5 bg-[#0d84fd] text-white'>
+            <div className='flex flex-col justify-center items-center xl:p-20 px-5 py-10 gap-5 mt-14 mb-5 bg-[#0d84fd] text-white'>
                 <p className='font-[Helvetica] text-4xl font-medium'>Call To Action</p>
                 <p className='text-center text-xl'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <button className='border-white border-1 rounded-4xl py-3 px-10 cursor-pointer'>Call To Action</button>

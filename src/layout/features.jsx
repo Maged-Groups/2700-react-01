@@ -18,7 +18,7 @@ import '../index.css'
 export default function Features() {
     
     return (
-        <section className='lg:px-24 md:px-10 md:pt-30 pt-5'>
+        <section className='lg:px-24 md:px-10 md:pt-30 pt-5 px-2'>
             <div data-aos="fade-up">
                 <p className='text-[#2D465E] font-[Helvetica] text-4xl font-bold text-center after:content-[""] after:block after:bg-[#0d83fd] after:w-20 after:my-4 after:h-1 after:mx-auto'>Features</p>
                 <p className='font-[Helvetica] text-lg text-center'>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
@@ -35,9 +35,9 @@ export default function Features() {
                             <p className='lg:text-2xl text-[#2D465E] font-medium after:content-[""] after:block after:bg-[#0d83fd] after:w-20 after:my-4 after:h-1'>Voluptatem dignissimos provident</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div>
-                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd]'/> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd]'/> Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd]'/> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd] xl:text-2xl text-3xl'/> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd] xl:text-2xl text-3xl'/> Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd] xl:text-2xl text-3xl'/> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 <p>
                                 Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
                                 </p>
@@ -50,10 +50,10 @@ export default function Features() {
                             <p className='lg:text-2xl text-[#2D465E] font-medium after:content-[""] after:block after:bg-[#0d83fd] after:w-20 after:my-4 after:h-1'>Neque exercitationem debitis</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div>
-                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd]'/> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd]'/> Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd]'/> Provident mollitia neque rerum asperiores dolores quos qui a.</p>
-                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd]'/>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd] xl:text-2xl text-3xl '/> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd] xl:text-2xl text-3xl '/> Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd] xl:text-2xl text-3xl '/> Lorem ipsum Provident mollitia neque rerum asperiores  </p>
+                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd] xl:text-2xl text-3xl '/>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
                             </div>
                         </div>
                         <img className='w-full md:w-5/12' src="../../public/tab2.jpg" alt="tab image 2" />
@@ -63,9 +63,9 @@ export default function Features() {
                             <p className='lg:text-2xl text-[#2D465E] font-medium after:content-[""] after:block after:bg-[#0d83fd] after:w-20 after:my-4 after:h-1'>Voluptatibus commodi accusamu</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div>
-                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd]'/> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd]'/> Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd]'/> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd] xl:text-2xl text-3xl '/> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd] xl:text-2xl text-3xl '/> Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                                <p className='flex justify-start items-center gap-5'><IoCheckmarkDone className='text-[#0d83fd] xl:text-2xl text-3xl '/> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat nesciunt perspiciatis, dolore eius doloremque illum nostrum minus sed explicabo iusto magnam magni ipsa nam consectetur eum architecto, at dignissimos culpa?
                                 </p>
@@ -75,23 +75,23 @@ export default function Features() {
                     </Tab.Panel>
                 </Tab.Panels>
             </Tab.Group>
-            <div data-aos="fade-up" className='flex w-full sm:flex-row flex-col md:px-10 flex-wrap justify-center items-center md:justify-around md:items-stretch'>
-                <div className='flex md:w-5/12 lg:w-60 w-full flex-col justify-start items-start p-5 gap-4 bg-red-100 h-auto rounded-xl'>
+            <div data-aos="fade-up" className='flex lg:flex-nowrap flex-wrap xl:justify-between justify-center gap-5 px-2 mt-10 xl:px-24'>
+                <div className='flex md:w-5/12 xl:w-3/12 w-full flex-col justify-start items-start p-5 gap-4 bg-red-100 rounded-xl'>
                     <FaAward className='text-3xl text-orange-300'/>
                     <p className='text-xl font-bold font-[cairo]'>Corporis voluptates</p>
                     <p className='text-gray-700'>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
                 </div>
-                <div className='flex md:w-5/12 lg:w-60 w-full flex-col justify-start items-start p-5 gap-4 bg-blue-300 h-auto rounded-xl'>
+                <div className='flex md:w-5/12 xl:w-3/12 w-full flex-col justify-start items-start p-5 gap-4 bg-blue-300 rounded-xl'>
                     <BsPatchCheck className='text-3xl text-blue-700'/>
                     <p className='text-xl font-bold font-[cairo]'>Explicabo consectetur</p>
                     <p className='text-gray-700'>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
                 </div>
-                <div className='flex md:w-5/12 lg:w-60 w-full flex-col justify-start items-start p-5 gap-4 bg-green-300 h-auto rounded-xl'>
+                <div className='flex md:w-5/12 xl:w-3/12 w-full flex-col justify-start items-start p-5 gap-4 bg-green-300 rounded-xl'>
                     <FiSunrise className='text-3xl text-green-700'/>
                     <p className='text-xl font-bold font-[cairo]'>Ullamco laboris</p>
                     <p className='text-gray-700'>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
                 </div>
-                <div className='flex md:w-5/12 lg:w-60 w-full flex-col justify-start items-start p-5 gap-4 bg-red-300 h-auto rounded-xl'>
+                <div className='flex md:w-5/12 xl:w-3/12 w-full flex-col justify-start items-start p-5 gap-4 bg-red-300 rounded-xl'>
                     <RiShieldCheckLine className='text-3xl text-red-600'/>
                     <p className='text-xl font-bold font-[cairo]'>Labore consequatur</p>
                     <p className='text-gray-700'>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
@@ -174,24 +174,21 @@ export default function Features() {
                 spaceBetween={0}
                 keyboard={{enabled:true}}
                 loop={true}
+                centeredSlides= {true}
                 pagination={{clickable:true}}
                 breakpoints={{
                     320:{
                         slidesPerView:2,
-                        centeredSlides: true,
                     },
                     768:{
                         slidesPerView:4,
-                        centeredSlides: true,
                     },
                     1024:{
                         slidesPerView:6,
-                        centeredSlides: true,
                     },
                 }}
                 autoplay={{
                     delay: 2000, 
-                    disableOnInteraction: false,
                 }}
                 speed={1000}
                 className='mySwiper my-10'

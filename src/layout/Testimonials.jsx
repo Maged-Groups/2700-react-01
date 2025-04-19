@@ -26,11 +26,7 @@ export default function Testimonials() {
                             </div>
                         </div>
                     </div>
-                    <p className='flex items-start relative justify-start'><svg xmlns="http://www.w3.org/2000/svg" className='relative -top-10 h-20 w-20' viewBox="0 0 512 512">
-	<path fill="#86C1FE" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48m-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48"></path>
-</svg>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem itaque, nemo libero obcaecati officiis a rem ullam atque, excepturi beatae at? Unde magnam ullam molestiae dignissimos! Officia impedit laborum sint.<svg className='relative -bottom-10 h-20 w-20' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1664 1408">
-	<path fill="#86C1FE" d="M768 192v704q0 104-40.5 198.5T618 1258t-163.5 109.5T256 1408h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28H192q-80 0-136-56T0 576V192q0-80 56-136T192 0h384q80 0 136 56t56 136m896 0v704q0 104-40.5 198.5T1514 1258t-163.5 109.5T1152 1408h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136V192q0-80 56-136t136-56h384q80 0 136 56t56 136"></path>
-</svg></p>
+                    <p className='flex items-start justify-start'>“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem itaque, nemo libero obcaecati officiis a rem ullam atque, excepturi beatae at? Unde magnam ullam molestiae dignissimos! Officia impedit laborum sint.”                               </p>
                 </div>
                 <div data-aos='fade-up' className='lg:w-5/12 w-full grid gap-10 bg-white shadow-2xl p-7'>
                     <div className="flex justify-start items-center gap-4">
@@ -47,11 +43,7 @@ export default function Testimonials() {
                             </div>
                         </div>
                     </div>
-                    <p className='flex items-start relative justify-start'><svg xmlns="http://www.w3.org/2000/svg" className='relative -top-10 h-20 w-20' viewBox="0 0 512 512">
-	<path fill="#86C1FE" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48m-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48"></path>
-</svg>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem itaque, nemo libero obcaecati officiis a rem ullam atque, excepturi beatae at? Unde magnam ullam molestiae dignissimos! Officia impedit laborum sint.<svg className='relative -bottom-10 h-20 w-20' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1664 1408">
-	<path fill="#86C1FE" d="M768 192v704q0 104-40.5 198.5T618 1258t-163.5 109.5T256 1408h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28H192q-80 0-136-56T0 576V192q0-80 56-136T192 0h384q80 0 136 56t56 136m896 0v704q0 104-40.5 198.5T1514 1258t-163.5 109.5T1152 1408h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136V192q0-80 56-136t136-56h384q80 0 136 56t56 136"></path>
-</svg></p>
+                    <p className='flex items-start justify-start'>“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem itaque, nemo libero obcaecati officiis a rem ullam atque, excepturi beatae at? Unde magnam ullam molestiae dignissimos! Officia impedit laborum sint.”                               </p>
                 </div>
                 <div data-aos='fade-up' className='lg:w-5/12 w-full grid gap-10 bg-white shadow-2xl p-7'>
                     <div className="flex justify-start items-center gap-4">
@@ -68,11 +60,7 @@ export default function Testimonials() {
                             </div>
                         </div>
                     </div>
-                    <p className='flex items-start relative justify-start'><svg xmlns="http://www.w3.org/2000/svg" className='relative -top-10 h-20 w-20' viewBox="0 0 512 512">
-	<path fill="#86C1FE" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48m-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48"></path>
-</svg>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem itaque, nemo libero obcaecati officiis a rem ullam atque, excepturi beatae at? Unde magnam ullam molestiae dignissimos! Officia impedit laborum sint.<svg className='relative -bottom-10 h-20 w-20' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1664 1408">
-	<path fill="#86C1FE" d="M768 192v704q0 104-40.5 198.5T618 1258t-163.5 109.5T256 1408h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28H192q-80 0-136-56T0 576V192q0-80 56-136T192 0h384q80 0 136 56t56 136m896 0v704q0 104-40.5 198.5T1514 1258t-163.5 109.5T1152 1408h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136V192q0-80 56-136t136-56h384q80 0 136 56t56 136"></path>
-</svg></p>
+                    <p className='flex items-start justify-start'>“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem itaque, nemo libero obcaecati officiis a rem ullam atque, excepturi beatae at? Unde magnam ullam molestiae dignissimos! Officia impedit laborum sint.”                               </p>
                 </div>
                 <div data-aos='fade-up' className='lg:w-5/12 w-full grid gap-10 bg-white shadow-2xl p-7'>
                     <div className="flex justify-start items-center gap-4">
@@ -89,11 +77,7 @@ export default function Testimonials() {
                             </div>
                         </div>
                     </div>
-                    <p className='flex items-start relative justify-start'><svg xmlns="http://www.w3.org/2000/svg" className='relative -top-10 h-20 w-20' viewBox="0 0 512 512">
-	<path fill="#86C1FE" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48m-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48"></path>
-</svg>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem itaque, nemo libero obcaecati officiis a rem ullam atque, excepturi beatae at? Unde magnam ullam molestiae dignissimos! Officia impedit laborum sint.<svg className='relative -bottom-10 h-20 w-20' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1664 1408">
-	<path fill="#86C1FE" d="M768 192v704q0 104-40.5 198.5T618 1258t-163.5 109.5T256 1408h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28H192q-80 0-136-56T0 576V192q0-80 56-136T192 0h384q80 0 136 56t56 136m896 0v704q0 104-40.5 198.5T1514 1258t-163.5 109.5T1152 1408h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136V192q0-80 56-136t136-56h384q80 0 136 56t56 136"></path>
-</svg></p>
+                    <p className='flex items-start justify-start'>“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem itaque, nemo libero obcaecati officiis a rem ullam atque, excepturi beatae at? Unde magnam ullam molestiae dignissimos! Officia impedit laborum sint.”                               </p>
                 </div>
             </div>
             <div data-aos='fade-up' className='md:flex grid w-full justify-around mt-12 bg-white py-10'>

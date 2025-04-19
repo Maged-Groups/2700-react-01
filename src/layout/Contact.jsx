@@ -5,12 +5,12 @@ import { CiMail } from "react-icons/ci";
 
 export default function Contact() {
     return (
-        <section className='bg-[#F3F9FF] lg:px-24 pb-16'>
+        <section className='bg-[#F3F9FF] lg:px-24 p-1 pb-16'>
             <div data-aos="fade-up">
                 <p className='text-[#2D465E] font-[Helvetica] text-4xl font-bold text-center after:content-[""] after:block after:bg-[#0d83fd] after:w-20 after:my-4 after:h-1 after:mx-auto'>Contact</p>
                 <p className='font-[Helvetica] text-lg text-center'>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
-            <div className='flex justify-center mt-16 gap-5'>
+            <div className='lg:flex grid justify-center mt-16 gap-5'>
                 <div className='p-10 gap-9  flex flex-col justify-center items-start rounded-2xl text-white bg-[#0d83fd] lg:w-5/12 w-full'>
                     <p className='font-[Helvetica] text-3xl font-medium'>Contact Info</p>
                     <p className='text-md'>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
