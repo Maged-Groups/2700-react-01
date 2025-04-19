@@ -1,6 +1,6 @@
 import { MdOutlineSlowMotionVideo , MdBusinessCenter} from "react-icons/md";
 import { IoSettingsOutline ,IoClose} from "react-icons/io5";
-import { FaHamburger } from "react-icons/fa";
+import { FaHamburger , FaArrowUp} from "react-icons/fa";
 import { TfiCup } from "react-icons/tfi";
 import { RiLineChartLine } from "react-icons/ri";
 import { FaAward } from "react-icons/fa6";
@@ -39,7 +39,7 @@ export default function Home() {
                     <p>Contact</p>
                 </div>
             </div>
-            <nav className="flex fixed w-10/12 opacity-95 top-10 justify-between items-center mb-10 shadow-lg px-5 rounded-2xl h-16 bg-white z-50">
+            <nav className="flex fixed md:w-10/12 w-full opacity-95 top-10 justify-between items-center mb-10 shadow-lg px-5 rounded-2xl h-16 bg-white z-50">
                 <p className="text-lg md:w-2/12">iLanding</p>
                 <div className="md:flex justify-evenly md:w-8/12 hidden ">
                     <p>Home</p>
@@ -84,7 +84,7 @@ export default function Home() {
                 </div>
                 <img src="../public/image1.jpg" className="md:w-1/2 z-0" data-aos="fade-up" data-aos-anchor-placement="center-bottom" alt="image" />
             </div>
-            <div data-aos="fade-up" className="shadow-[0_0_15px_gray] py-3 grid bg-[#F2F9FF] md:gap-0 gap-5 md:flex w-full justify-around mt-10 md:h-40 h-auto items-center rounded-3xl">
+            <div data-aos="fade-up" className="shadow-[0_0_15px_gray] py-10 grid bg-white md:gap-0 gap-5 md:flex w-full justify-around mt-10 md:h-40 h-auto items-center rounded-3xl">
                 <div  className="flex justify-start md:gap-0 gap-5 md:justify-center items-center">
                     <button className="hover:bg-[#0d83fd]  hover:text-white text-[#0d83fd] bg-[#ecf5ff] h-15 md:h-15 w-15 flex justify-center items-center rounded-full">
                         <TfiCup/>
@@ -122,7 +122,9 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-
+            <a className="rounded-full flex justify-center items-center h-12 w-12 text-white bg-[#0d83fd] hover:bg-white hover:text-[#0d83fd] fixed right-10 bottom-10 z-1" href="#">
+                <FaArrowUp/>
+            </a>
         </section>
     );
 }

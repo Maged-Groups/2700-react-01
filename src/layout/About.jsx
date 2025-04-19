@@ -35,9 +35,9 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div data-aos="fade-up" className='md:block grid'>
-                <img className=' h-full w-full rounded-4xl p-3 md:p-0' src="../../public/about-1.jpg" alt="image" />
-                <div className='md:absolute bottom-35 left-5 md:bg-white p-3 md:scale-200 md:w-2/12 z-1'>
+            <div data-aos="fade-up" className='md:block grid md:w-6/12'>
+                <img className='h-full w-full rounded-4xl p-3 md:p-0' src="../../public/about-1.jpg" alt="image" />
+                <div className='md:absolute bottom-35 -left-10 md:bg-white p-3 md:w-5/12 z-1'>
                     <img src="../../public/about-2.jpg" className='rounded-xl' alt="image" />
                 </div>
             </div>

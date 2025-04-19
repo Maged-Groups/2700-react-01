@@ -11,10 +11,10 @@ import { Tab } from '@headlessui/react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation ,Autoplay , Keyboard} from 'swiper/modules';
+import { Pagination , Navigation ,Autoplay , Keyboard} from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
-
+import '../index.css'
 export default function Features() {
     
     return (
@@ -169,11 +169,12 @@ export default function Features() {
             </div>
             <Swiper
                 navigation={true}
-                modules={[Navigation,Autoplay,Keyboard]}
+                modules={[Navigation,Autoplay,Keyboard,Pagination]}
                 grabCursor={true}
                 spaceBetween={0}
                 keyboard={{enabled:true}}
                 loop={true}
+                pagination={{clickable:true}}
                 breakpoints={{
                     320:{
                         slidesPerView:2,
@@ -193,7 +194,7 @@ export default function Features() {
                     disableOnInteraction: false,
                 }}
                 speed={1000}
-                className='mySwiper mt-10'
+                className='mySwiper my-10'
                 data-aos="fade-up"
             >
                 <SwiperSlide><img className='w-4/12 grayscale hover:grayscale-0' src="../../public/logo1.png" alt="logo1" /></SwiperSlide>

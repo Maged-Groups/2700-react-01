@@ -5,17 +5,19 @@ import Testimonials from './layout/Testimonials'
 import ServicesDetails from './layout/services-details'
 import Services from './layout/Services'
 import Pricing from './layout/Pricing'
+import Contact from './layout/Contact'
 import Footer from './layout/footer'
 export default function App() {
 
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Home/>
       <About/>
       <Features/>
       <Testimonials/>
       <Services/>
       <Pricing/>
+      <Contact/>
       <Footer/>
       {/* <ServicesDetails/> */}
       

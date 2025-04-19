@@ -1,5 +1,18 @@
 @import "tailwindcss";
 *{
     box-sizing: border-box;
-    transition: all 0.3s;
+}
+.mySwiper{
+    padding: 5%;
+}
+.swiper-pagination{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.swiper-pagination-bullet{
+    
+    position: relative;
+    top: 5px;
+    scale: 1.5;
 }
